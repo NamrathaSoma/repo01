@@ -1,6 +1,7 @@
 pipeline {
 
     agent {label "python"}
+        pollSCM('H/3 * * * *')
 
     environment {
  
